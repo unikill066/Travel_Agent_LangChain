@@ -270,3 +270,14 @@
 2025-07-14 15:16:23 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
 2025-07-14 15:16:23 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
 2025-07-14 15:16:23 | INFO     | src.utils.utils_main | utils_main.py:213 | Loaded model: client=<groq.resources.chat.completions.Completions object at 0x1212399d0> async_client=<groq.resources.chat.completions.AsyncCompletions object at 0x121239150> model_name='deepseek-r1-distill-llama-70b' model_kwargs={} groq_api_key=SecretStr('**********')
+2025-07-14 16:10:38 | INFO     | src.utils.utils_main | utils_main.py:159 | ConfigLoader initialized
+2025-07-14 16:10:38 | INFO     | src.utils.utils_main | utils_main.py:44 | Loaded config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 16:10:38 | INFO     | src.utils.utils_main | utils_main.py:161 | ConfigLoader config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 16:10:38 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 16:10:38 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 16:10:38 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 16:10:38 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 16:10:38 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 16:10:38 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 16:10:38 | INFO     | src.utils.utils_main | utils_main.py:213 | Loaded model: client=<groq.resources.chat.completions.Completions object at 0x12123b020> async_client=<groq.resources.chat.completions.AsyncCompletions object at 0x12123b8a0> model_name='deepseek-r1-distill-llama-70b' model_kwargs={} groq_api_key=SecretStr('**********')
+2025-07-14 16:10:41 | INFO     | httpx | _client.py:1025 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
