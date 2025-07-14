@@ -1,6 +1,31 @@
-# 🌍 Travel Agent AI using LangChain
+# 🌍 AI Travel Agent using LangChain
+
+![Python](https://img.shields.io/badge/python-3.13%2B-blue?logo=python)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+![OpenAI](https://img.shields.io/badge/Powered_by-OpenAI-orange)
+![LangChain](https://img.shields.io/badge/Powered_by-LangChain-blue)
+![Streamlit](https://img.shields.io/badge/Powered_by-Streamlit-green)
+![LangSmith](https://img.shields.io/badge/Powered_by-LangSmith-blue)
+![Tavily](https://img.shields.io/badge/Powered_by-Tavily-blue)
+![Google Places](https://img.shields.io/badge/Powered_by-Google_Places-blue)
+![Google Maps](https://img.shields.io/badge/Powered_by-Google_Maps-blue)
+![AlphaVantage](https://img.shields.io/badge/Powered_by-AlphaVantage-blue)
 
 A world-class AI Travel Agent & Expense Planner built with Python, LangChain, and Streamlit. Plan your next trip effortlessly with end-to-end proposals that include both Highlights and Hidden-Gems itineraries, real-time weather forecasts, detailed expense calculations, robust logging, and convenient utilities for configuration and document generation.
+
+
+### Live Demo: 
+
+[![Launch Demo](https://img.shields.io/badge/Launch-Demo-red?style=for-the-badge&logo=streamlit&logoColor=white)](demo/xenium_seg_cellposesam_demo.mp4)
+
+
+### Step-by-step Wiki of the repo: 
+
+<p align="left">
+  <a href="docs/agentic-rag_wiki.md">
+    <img src="https://img.shields.io/badge/Step–by–Step-Docs-blue?style=for-the-badge" alt="Step-by-Step Docs">
+  </a>
+</p>
 
 ## Table of Contents
 
@@ -98,6 +123,13 @@ travel_agent/
    OPENWEATHER_API_KEY=<your_openweather_api_key>
    OPENAI_API_KEY=<your_openai_api_key>
    GROQ_API_KEY=<your_groq_api_key>
+   ALPHAVANTAGE_EXCHANGE_RATE_API_KEY=<your_alphavantage_api_key>
+   LANGSMITH_TRACING=true
+   LANGSMITH_ENDPOINT="https://api.smith.langchain.com"
+   LANGSMITH_API_KEY=<your_langsmith_api_key>
+   LANGSMITH_PROJECT="travel-app"
+   GOOGLE_API_KEY=<your_google_api_key>
+
    LOG_LEVEL=INFO          # Optional: DEBUG, INFO, WARNING, ERROR
    LOG_DIR=logs            # Optional: logs directory
    ```
