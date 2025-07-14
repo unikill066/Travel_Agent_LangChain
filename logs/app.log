@@ -192,3 +192,81 @@
 2025-07-14 13:13:05 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
 2025-07-14 13:13:05 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
 2025-07-14 13:13:06 | INFO     | src.utils.utils_main | utils_main.py:213 | Loaded model: client=<groq.resources.chat.completions.Completions object at 0x120868c20> async_client=<groq.resources.chat.completions.AsyncCompletions object at 0x1208697f0> model_name='deepseek-r1-distill-llama-70b' model_kwargs={} groq_api_key=SecretStr('**********')
+2025-07-14 14:36:59 | INFO     | src.tools.weather_tool | weather_tool.py:28 | WeatherTool initialized
+2025-07-14 14:36:59 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:28 | PlaceExplorerTool initialized
+2025-07-14 14:36:59 | INFO     | src.tools.expenses_calc_tool | expenses_calc_tool.py:30 | ExpensesCalcTool initialized
+2025-07-14 14:36:59 | INFO     | src.utils.utils_main | utils_main.py:159 | ConfigLoader initialized
+2025-07-14 14:36:59 | INFO     | src.utils.utils_main | utils_main.py:44 | Loaded config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 14:36:59 | INFO     | src.utils.utils_main | utils_main.py:161 | ConfigLoader config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 14:36:59 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 14:36:59 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 14:36:59 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 14:36:59 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 14:36:59 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 14:36:59 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 14:36:59 | INFO     | src.utils.utils_main | utils_main.py:213 | Loaded model: client=<groq.resources.chat.completions.Completions object at 0x120760c20> async_client=<groq.resources.chat.completions.AsyncCompletions object at 0x1207617f0> model_name='deepseek-r1-distill-llama-70b' model_kwargs={} groq_api_key=SecretStr('**********')
+2025-07-14 14:37:07 | INFO     | src.utils.utils_main | utils_main.py:159 | ConfigLoader initialized
+2025-07-14 14:37:07 | INFO     | src.utils.utils_main | utils_main.py:44 | Loaded config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 14:37:07 | INFO     | src.utils.utils_main | utils_main.py:161 | ConfigLoader config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 14:37:07 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 14:37:07 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 14:37:07 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 14:37:07 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 14:37:07 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 14:37:07 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 14:37:07 | INFO     | src.utils.utils_main | utils_main.py:213 | Loaded model: client=<groq.resources.chat.completions.Completions object at 0x1215a2c10> async_client=<groq.resources.chat.completions.AsyncCompletions object at 0x1215a3610> model_name='deepseek-r1-distill-llama-70b' model_kwargs={} groq_api_key=SecretStr('**********')
+2025-07-14 14:38:14 | INFO     | src.utils.utils_main | utils_main.py:159 | ConfigLoader initialized
+2025-07-14 14:38:14 | INFO     | src.utils.utils_main | utils_main.py:44 | Loaded config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 14:38:14 | INFO     | src.utils.utils_main | utils_main.py:161 | ConfigLoader config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 14:38:14 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 14:38:14 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 14:38:14 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 14:38:14 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 14:38:14 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 14:38:14 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 14:38:14 | INFO     | src.utils.utils_main | utils_main.py:213 | Loaded model: client=<groq.resources.chat.completions.Completions object at 0x12028a850> async_client=<groq.resources.chat.completions.AsyncCompletions object at 0x121234050> model_name='deepseek-r1-distill-llama-70b' model_kwargs={} groq_api_key=SecretStr('**********')
+2025-07-14 14:38:35 | INFO     | src.utils.utils_main | utils_main.py:159 | ConfigLoader initialized
+2025-07-14 14:38:35 | INFO     | src.utils.utils_main | utils_main.py:44 | Loaded config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 14:38:35 | INFO     | src.utils.utils_main | utils_main.py:161 | ConfigLoader config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 14:38:35 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 14:38:35 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 14:38:35 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 14:38:35 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 14:38:35 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 14:38:35 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 14:38:35 | INFO     | src.utils.utils_main | utils_main.py:213 | Loaded model: client=<groq.resources.chat.completions.Completions object at 0x12153c2b0> async_client=<groq.resources.chat.completions.AsyncCompletions object at 0x12153cc30> model_name='deepseek-r1-distill-llama-70b' model_kwargs={} groq_api_key=SecretStr('**********')
+2025-07-14 14:38:42 | INFO     | httpx | _client.py:1025 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-14 15:15:59 | INFO     | src.tools.weather_tool | weather_tool.py:28 | WeatherTool initialized
+2025-07-14 15:15:59 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:28 | PlaceExplorerTool initialized
+2025-07-14 15:15:59 | INFO     | src.tools.expenses_calc_tool | expenses_calc_tool.py:30 | ExpensesCalcTool initialized
+2025-07-14 15:15:59 | INFO     | src.utils.utils_main | utils_main.py:159 | ConfigLoader initialized
+2025-07-14 15:15:59 | INFO     | src.utils.utils_main | utils_main.py:44 | Loaded config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 15:15:59 | INFO     | src.utils.utils_main | utils_main.py:161 | ConfigLoader config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 15:15:59 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 15:15:59 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 15:15:59 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 15:15:59 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 15:15:59 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 15:15:59 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 15:15:59 | INFO     | src.utils.utils_main | utils_main.py:213 | Loaded model: client=<groq.resources.chat.completions.Completions object at 0x12153e780> async_client=<groq.resources.chat.completions.AsyncCompletions object at 0x12153f100> model_name='deepseek-r1-distill-llama-70b' model_kwargs={} groq_api_key=SecretStr('**********')
+2025-07-14 15:16:08 | INFO     | src.utils.utils_main | utils_main.py:159 | ConfigLoader initialized
+2025-07-14 15:16:08 | INFO     | src.utils.utils_main | utils_main.py:44 | Loaded config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 15:16:08 | INFO     | src.utils.utils_main | utils_main.py:161 | ConfigLoader config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 15:16:08 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 15:16:08 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 15:16:08 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 15:16:08 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 15:16:09 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 15:16:09 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 15:16:09 | INFO     | src.utils.utils_main | utils_main.py:213 | Loaded model: client=<groq.resources.chat.completions.Completions object at 0x1217a3890> async_client=<groq.resources.chat.completions.AsyncCompletions object at 0x121658290> model_name='deepseek-r1-distill-llama-70b' model_kwargs={} groq_api_key=SecretStr('**********')
+2025-07-14 15:16:17 | INFO     | httpx | _client.py:1025 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-14 15:16:23 | INFO     | src.utils.utils_main | utils_main.py:159 | ConfigLoader initialized
+2025-07-14 15:16:23 | INFO     | src.utils.utils_main | utils_main.py:44 | Loaded config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 15:16:23 | INFO     | src.utils.utils_main | utils_main.py:161 | ConfigLoader config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 15:16:23 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 15:16:23 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 15:16:23 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 15:16:23 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 15:16:23 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 15:16:23 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 15:16:23 | INFO     | src.utils.utils_main | utils_main.py:213 | Loaded model: client=<groq.resources.chat.completions.Completions object at 0x1212399d0> async_client=<groq.resources.chat.completions.AsyncCompletions object at 0x121239150> model_name='deepseek-r1-distill-llama-70b' model_kwargs={} groq_api_key=SecretStr('**********')
