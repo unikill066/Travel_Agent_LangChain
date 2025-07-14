@@ -21,3 +21,102 @@
 2025-07-14 09:03:32 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
 2025-07-14 09:03:32 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
 2025-07-14 09:03:32 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 09:18:12 | INFO     | src.tools.weather_tool | weather_tool.py:28 | WeatherTool initialized
+2025-07-14 09:18:13 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:28 | PlaceExplorerTool initialized
+2025-07-14 09:18:13 | INFO     | src.tools.expenses_calc_tool | expenses_calc_tool.py:30 | ExpensesCalcTool initialized
+2025-07-14 09:18:13 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 09:18:13 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 09:18:13 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:18:13 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:18:13 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 09:18:13 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 09:18:45 | INFO     | src.tools.weather_tool | weather_tool.py:28 | WeatherTool initialized
+2025-07-14 09:18:45 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:28 | PlaceExplorerTool initialized
+2025-07-14 09:18:45 | INFO     | src.tools.expenses_calc_tool | expenses_calc_tool.py:30 | ExpensesCalcTool initialized
+2025-07-14 09:18:45 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 09:18:45 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 09:18:45 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:18:45 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:18:45 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 09:18:45 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 09:20:47 | INFO     | src.tools.weather_tool | weather_tool.py:28 | WeatherTool initialized
+2025-07-14 09:20:47 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:28 | PlaceExplorerTool initialized
+2025-07-14 09:20:47 | INFO     | src.tools.expenses_calc_tool | expenses_calc_tool.py:30 | ExpensesCalcTool initialized
+2025-07-14 09:20:47 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 09:20:47 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 09:20:47 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:20:47 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:20:47 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 09:20:47 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 09:22:28 | INFO     | src.tools.weather_tool | weather_tool.py:28 | WeatherTool initialized
+2025-07-14 09:22:28 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:28 | PlaceExplorerTool initialized
+2025-07-14 09:22:28 | INFO     | src.tools.expenses_calc_tool | expenses_calc_tool.py:30 | ExpensesCalcTool initialized
+2025-07-14 09:22:28 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 09:22:28 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 09:22:28 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:22:28 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:22:28 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 09:22:28 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 09:29:31 | INFO     | src.tools.weather_tool | weather_tool.py:28 | WeatherTool initialized
+2025-07-14 09:29:31 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:28 | PlaceExplorerTool initialized
+2025-07-14 09:29:31 | INFO     | src.tools.expenses_calc_tool | expenses_calc_tool.py:30 | ExpensesCalcTool initialized
+2025-07-14 09:29:31 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 09:29:31 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 09:29:31 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:29:31 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:29:31 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 09:29:31 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 09:31:12 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 09:31:12 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 09:31:12 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:31:12 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:31:12 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 09:31:12 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 09:31:40 | INFO     | src.tools.weather_tool | weather_tool.py:28 | WeatherTool initialized
+2025-07-14 09:31:40 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:28 | PlaceExplorerTool initialized
+2025-07-14 09:31:40 | INFO     | src.tools.expenses_calc_tool | expenses_calc_tool.py:30 | ExpensesCalcTool initialized
+2025-07-14 09:31:40 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 09:31:40 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 09:31:40 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:31:40 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:31:40 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 09:31:40 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 09:31:53 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 09:31:53 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 09:31:53 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:31:53 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:31:53 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 09:31:53 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 09:32:23 | INFO     | src.tools.weather_tool | weather_tool.py:28 | WeatherTool initialized
+2025-07-14 09:32:23 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:28 | PlaceExplorerTool initialized
+2025-07-14 09:32:23 | INFO     | src.tools.expenses_calc_tool | expenses_calc_tool.py:30 | ExpensesCalcTool initialized
+2025-07-14 09:32:23 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 09:32:23 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 09:32:23 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:32:23 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:32:23 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 09:32:23 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 09:35:57 | INFO     | src.tools.weather_tool | weather_tool.py:28 | WeatherTool initialized
+2025-07-14 09:35:57 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:28 | PlaceExplorerTool initialized
+2025-07-14 09:35:57 | INFO     | src.tools.expenses_calc_tool | expenses_calc_tool.py:30 | ExpensesCalcTool initialized
+2025-07-14 09:35:57 | INFO     | src.utils.utils_main | utils_main.py:159 | ConfigLoader initialized
+2025-07-14 09:35:57 | INFO     | src.utils.utils_main | utils_main.py:44 | Loaded config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 09:35:57 | INFO     | src.utils.utils_main | utils_main.py:161 | ConfigLoader config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 09:35:57 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 09:35:57 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 09:35:57 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:35:57 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:35:57 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 09:35:57 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 09:35:58 | INFO     | src.utils.utils_main | utils_main.py:213 | Loaded model: client=<groq.resources.chat.completions.Completions object at 0x12c6b7cb0> async_client=<groq.resources.chat.completions.AsyncCompletions object at 0x12d2bc6e0> model_name='deepseek-r1-distill-llama-70b' model_kwargs={} groq_api_key=SecretStr('**********')
+2025-07-14 09:36:06 | INFO     | src.utils.utils_main | utils_main.py:159 | ConfigLoader initialized
+2025-07-14 09:36:06 | INFO     | src.utils.utils_main | utils_main.py:44 | Loaded config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 09:36:06 | INFO     | src.utils.utils_main | utils_main.py:161 | ConfigLoader config: {'llm': {'openai': {'provider': 'openai', 'model_name': 'o4-mini'}, 'groq': {'provider': 'groq', 'model_name': 'deepseek-r1-distill-llama-70b'}}}
+2025-07-14 09:36:06 | INFO     | src.utils.weather | weather.py:42 | WeatherForcast initialized
+2025-07-14 09:36:06 | INFO     | src.tools.weather_tool | weather_tool.py:90 | WeatherTool._setup_tools() finished
+2025-07-14 09:36:06 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:36:06 | INFO     | googlemaps.client | client.py:194 | API queries_quota: 60
+2025-07-14 09:36:06 | INFO     | src.tools.place_explorer_tool | place_explorer_tool.py:153 | PlaceExplorerTool._setup_tools() finished
+2025-07-14 09:36:06 | INFO     | src.utils.utils_main | utils_main.py:98 | MathUtils initialized
+2025-07-14 09:36:06 | INFO     | src.utils.utils_main | utils_main.py:213 | Loaded model: client=<groq.resources.chat.completions.Completions object at 0x12d2ea710> async_client=<groq.resources.chat.completions.AsyncCompletions object at 0x12d2eb110> model_name='deepseek-r1-distill-llama-70b' model_kwargs={} groq_api_key=SecretStr('**********')
+2025-07-14 09:36:15 | INFO     | httpx | _client.py:1025 | HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"

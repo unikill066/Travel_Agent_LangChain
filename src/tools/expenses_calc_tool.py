@@ -102,3 +102,5 @@ class ExpensesCalcTool:
             """
             logger.info(f"Calculating budget per day for {total_budget} over {num_days} days: {self.expenser.budget_per_day(total_budget, num_days)}")
             return self.expenser.budget_per_day(total_budget, num_days)
+
+        return [calculate_total_hotel_expenses, calculate_total_expense, calculate_budget_per_day]

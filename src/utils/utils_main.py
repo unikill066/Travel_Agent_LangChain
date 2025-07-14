@@ -157,7 +157,8 @@ class ConfigLoader:
     """
     def __init__(self):
         logger.info("ConfigLoader initialized")
-        self.config = load_config()
+        self.config = load_config("config/config.yaml")
+        logger.info(f"ConfigLoader config: {self.config}")
 
     def __getitem__(self, key):
         return self.config[key]
@@ -174,7 +175,7 @@ class ModelLoader(BaseModel):
     model_provider: Literal["openai", "groq"] = "groq"
     config: Optional[ConfigLoader] = Field(default=None, exclude=True)
 
-    def model_past_init(self, __context: Any) -> None:
+    def model_post_init(self, __context: Any) -> None:
         """
         Initialize the model loader.
         """
@@ -196,17 +197,18 @@ class ModelLoader(BaseModel):
             >>> model_loader.load_llm()
             <ChatOpenAI object at 0x7f8d8d8d8d8d> / <ChatGroq object at 0x7f8d8d8d8d8d>
         """
-        if self.model_provider == "openai":
-            openai_api_key = os.getenv("OPENAI_API_KEY")
-            if openai_api_key is None:
-                raise ValueError("OpenAI API key not found")
-            llm = ChatOpenAI(api_key=openai_api_key, model_name="o4-mini")
-        elif self.model_provider == "groq":
+        if self.model_provider == "groq":
             groq_api_key = os.getenv("GROQ_API_KEY")
             if groq_api_key is None:
                 raise ValueError("Groq API key not found")
             model_name = self.config["llm"]["groq"]["model_name"]
             llm = ChatGroq(api_key=groq_api_key, model_name=model_name)
+        elif self.model_provider == "openai":
+            openai_api_key = os.getenv("OPENAI_API_KEY")
+            if openai_api_key is None:
+                raise ValueError("OpenAI API key not found")
+            llm = ChatOpenAI(api_key=openai_api_key, model_name="o4-mini")
         else:
             raise ValueError("Invalid model provider")
+        logger.info(f"Loaded model: {llm}")
         return llm

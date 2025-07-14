@@ -29,19 +29,11 @@ from typing import Optional
 
 __all__ = ["get_logger", "set_level"]
 
-# ---------------------------------------------------------------------------
-# Configuration via environment variables
-# ---------------------------------------------------------------------------
 LOG_DIR = Path(os.getenv("LOG_DIR", "logs"))
 LOG_FILE = LOG_DIR / "app.log"
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
 
-# Ensure the log directory exists
 LOG_DIR.mkdir(parents=True, exist_ok=True)
-
-# ---------------------------------------------------------------------------
-# Internal helpers
-# ---------------------------------------------------------------------------
 
 def _color_formatter() -> logging.Formatter:
     """Return a color‑aware formatter if *colorlog* is available, else plain."""

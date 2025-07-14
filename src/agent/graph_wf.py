@@ -29,10 +29,11 @@ class GraphWorkflow:
         self.place_explorer_tool = PlaceExplorerTool()
         self.expenses_calc_tool = ExpensesCalcTool()
         self.tools.extend([
-            *self.weather_tool.weather_tool_list, 
-            *self.place_explorer_tool.place_search_tool_list, 
-            *self.expenses_calc_tool.expenser_tool_list])
+            * self.weather_tool.weather_tool_list, 
+            * self.place_explorer_tool.place_search_tool_list, 
+            * self.expenses_calc_tool.expenser_tool_list])
 
+        self.llm = self.model_loader.load_llm()
         self.llm_with_tools = self.llm.bind_tools(tools=self.tools)
         self.system_prompt = SYSTEM_PROMPT
 
