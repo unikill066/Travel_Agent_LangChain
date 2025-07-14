@@ -2,6 +2,7 @@
 import os, sys, streamlit as st, datetime
 from dotenv import load_dotenv
 load_dotenv()
+sys.path.append("../")
 
 # Add project root to path
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -46,7 +47,7 @@ if submit_button and user_input.strip():
             markdown_content = f"""# 🌍 AI Travel Plan
 
 **Generated:** {datetime.datetime.now().strftime('%Y-%m-%d at %H:%M')}  
-**Created by:** Atriyo's Travel Agent
+**Created by:** unikill066's Travel Agent
 
 ---
 

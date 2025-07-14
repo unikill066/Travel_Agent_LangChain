@@ -28,7 +28,7 @@ from pathlib import Path
 from typing import Optional
 
 __all__ = ["get_logger", "set_level"]
-
+print(os.getenv("LOG_DIR"))
 LOG_DIR = Path(os.getenv("LOG_DIR", "logs"))
 LOG_FILE = LOG_DIR / "app.log"
 LOG_LEVEL = os.getenv("LOG_LEVEL", "INFO").upper()
