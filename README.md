@@ -16,13 +16,13 @@ A world-class AI Travel Agent & Expense Planner built with Python, LangChain, an
 
 ### Live Demo: 
 
-[![Launch Demo](https://img.shields.io/badge/Launch-Demo-red?style=for-the-badge&logo=streamlit&logoColor=white)](demo/xenium_seg_cellposesam_demo.mp4)
+[![Launch Demo](https://img.shields.io/badge/Launch-Demo-red?style=for-the-badge&logo=streamlit&logoColor=white)](https://huggingface.co/spaces/unikill066/AI-Travel-Agent-Langchain)
 
 
 ### Step-by-step Wiki of the repo: 
 
 <p align="left">
-  <a href="docs/agentic-rag_wiki.md">
+  <a href="docs/index.md">
     <img src="https://img.shields.io/badge/Step–by–Step-Docs-blue?style=for-the-badge" alt="Step-by-Step Docs">
   </a>
 </p>
